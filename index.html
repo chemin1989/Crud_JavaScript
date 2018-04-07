@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto Ezequiel</title>
+        <meta charset="utf-8">  
+        
+    </head>
+    <body>   
+            <div align="center">
+                
+                <form onsubmit="">
+                <div><label>EMPRESA</label></div>   
+                <input type="text" name="emp" id="emp">
+                <div><label>CALLE</label></div>   
+                <input type="text" name="cal" id="cal">
+                <div><label>CIF</label></div> 
+                <input type="text" name="cif" id="cif">
+                <div><label>Nº Factura</label></div> 
+                <input type="text" name="num" id="num">
+                <div><label>Neto Factura</label></div> 
+                <input type="text" name="net" id="net">
+                </form>
+                
+                <div>
+                <button onclick="addR();">Registrar</button>
+                <button onclick="editR();">Editar</button>
+                <button onclick="deleleteR();">Borrar</button>
+                <button onclick="alertfuncionamiento();">FAQ</button>
+                </div>
+
+            </div>
+        
+             <div>
+               
+               <table id="tabla" align="center" border="3">
+                    <tr>
+                        <th>EMPRESA</th>
+                        <th>CALLE</th>
+                        <th>CIF</th>
+                        <th>Nº Factura</th>
+                        <th>Neto Factura</th>
+                    </tr>
+                    <tr>
+                        <td>Aesa Salamanca. Empresa de Servicios Energeticos (ESE)</td>
+                        <td>C/ Crespo Rascón 27 2c </td>
+                        <td>B37509563</td>
+                        <td>12545AS</td>
+                        <td>125€</td>
+                    </tr>
+                     <tr>
+                        <td>Aqualia</td>
+                        <td>Calle Numancia, 1, 37001 Salamanca</td>
+                        <td>B37509582</td>
+                        <td>1569845FD</td>
+                        <td>258€</td>
+                    </tr>
+                     <tr>
+                        <td>ASESORÍA DE EMPRESAS NORMA MARTÍN ESTEBAN</td>
+                        <td>Calle Brocheros, 6, 37004 Salamanca </td>
+                        <td>B37587541</td>
+                        <td>DS526585</td>
+                        <td>585€</td>
+                    </tr>
+                </table>
+            </div>
+         
+    </body>
+    <script type="text/javascript" src="js/in.js"></script>
+</html>
+
+
+
